@@ -27,15 +27,15 @@ y'a tout qui est hardcoder dedans, mais faudra utiliser des variables d'environn
 # Comment qu'on fait ?
 
 ## compilation
-npx hardhat clean
-puis
-npx hardhat compile ou build 
+1. npx hardhat clean
+2. npx hardhat compile ou build 
+
 pour compiler les smart contract, permet de génerer des artifacts (instruction à rendre publique pour que les gens savent comment ces contrats fonctionnent)
 
 ## test
-npx hardhat test : fait tout les tests
-npx hardhat test solidity : fait seulement les tests unitaire solidity (/contracts/*.t.sol)
-npx hardhat test nodejs : fait les autres tests
+- npx hardhat test : fait tout les tests
+- npx hardhat test solidity : fait seulement les tests unitaire solidity (/contracts/*.t.sol)
+- npx hardhat test nodejs : fait les autres tests
 
 
 
