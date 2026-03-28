@@ -41,8 +41,8 @@ npx hardhat test nodejs : fait les autres tests
 
 ## utilisation
 
-1 - npx hardhat node : créer une chaine locale des faux compte avec faux eth
+1. npx hardhat node : créer une chaine locale des faux compte avec faux eth
 (faut regarder une adresse d'un compte renvoyé pour modifier le script d'interaction si besoin)
-2 -  npx hardhat ignition deploy ignition/modules/Counter.ts --network localhost : publie le contrat du script sur la chaine locale
+2.  npx hardhat ignition deploy ignition/modules/Counter.ts --network localhost : publie le contrat du script sur la chaine locale
 (faut regarder l'adresse du contract renvoyée pour modifier le script d'interaction si besoin)
-3 - npx hardhat run scripts/interact.ts --network localhost : execute le script d'interaction avec le contrat sur la chaine locale
+3. npx hardhat run scripts/interact.ts --network localhost : execute le script d'interaction avec le contrat sur la chaine locale
